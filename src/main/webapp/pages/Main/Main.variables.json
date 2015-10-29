@@ -1,0 +1,254 @@
+{
+	"weeklySales": {
+		"name": "weeklySales",
+		"type": null,
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {
+			"year": "bind:Widgets.yearFilter.datavalue",
+			"month": "bind:Widgets.monthFilter.datavalue"
+		},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 1000,
+		"designMaxResults": 10,
+		"service": "salesdb",
+		"operation": "weeklySales",
+		"operationType": "nativequery",
+		"startUpdate": false,
+		"autoUpdate": false,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"onBeforeUpdate": "Javascript",
+		"serviceType": "DataService",
+		"category": "wm.ServiceVariable",
+		"_id": "wm-wm.ServiceVariable1404489045667"
+	},
+	"weeklyLeads": {
+		"name": "weeklyLeads",
+		"type": null,
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {
+			"year": "",
+			"month": ""
+		},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 1000,
+		"designMaxResults": 10,
+		"service": "salesdb",
+		"operation": "weeklyLeads",
+		"operationType": "nativequery",
+		"startUpdate": false,
+		"autoUpdate": false,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"onBeforeUpdate": "Javascript",
+		"serviceType": "DataService",
+		"category": "wm.ServiceVariable",
+		"_id": "wm-wm.ServiceVariable1404709599784"
+	},
+	"weeklyQuotes": {
+		"name": "weeklyQuotes",
+		"type": null,
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {
+			"year": "",
+			"month": ""
+		},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 1000,
+		"designMaxResults": 10,
+		"service": "salesdb",
+		"operation": "weeklyQuotes",
+		"operationType": "nativequery",
+		"startUpdate": true,
+		"autoUpdate": false,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"onBeforeUpdate": "Javascript",
+		"serviceType": "DataService",
+		"category": "wm.ServiceVariable",
+		"_id": "wm-wm.ServiceVariable1404709627567"
+	},
+	"weeklyFollowUps": {
+		"name": "weeklyFollowUps",
+		"type": null,
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {
+			"year": "",
+			"month": ""
+		},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 1000,
+		"designMaxResults": 10,
+		"service": "salesdb",
+		"operation": "weeklyFollowUps",
+		"operationType": "nativequery",
+		"startUpdate": false,
+		"autoUpdate": false,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"onBeforeUpdate": "Javascript",
+		"serviceType": "DataService",
+		"category": "wm.ServiceVariable",
+		"_id": "wm-wm.ServiceVariable1404709656577"
+	},
+	"weeklyConverted": {
+		"name": "weeklyConverted",
+		"type": null,
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {
+			"year": "",
+			"month": ""
+		},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 1000,
+		"designMaxResults": 10,
+		"service": "salesdb",
+		"operation": "weeklyConverted",
+		"operationType": "nativequery",
+		"startUpdate": false,
+		"autoUpdate": false,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"onBeforeUpdate": "Javascript",
+		"serviceType": "DataService",
+		"category": "wm.ServiceVariable",
+		"_id": "wm-wm.ServiceVariable1404709683318"
+	},
+	"salesByChannels": {
+		"name": "salesByChannels",
+		"type": null,
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {
+			"year": "",
+			"month": ""
+		},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 1000,
+		"designMaxResults": 10,
+		"service": "salesdb",
+		"operation": "salesByChannels",
+		"operationType": "nativequery",
+		"startUpdate": false,
+		"autoUpdate": false,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"onBeforeUpdate": "Javascript",
+		"serviceType": "DataService",
+		"category": "wm.ServiceVariable",
+		"_id": "wm-wm.ServiceVariable1404709733341"
+	},
+	"customersRatio": {
+		"name": "customersRatio",
+		"type": null,
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {
+			"year": "",
+			"month": ""
+		},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 1000,
+		"designMaxResults": 10,
+		"service": "salesdb",
+		"operation": "customersRatio",
+		"operationType": "nativequery",
+		"startUpdate": false,
+		"autoUpdate": false,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"onBeforeUpdate": "Javascript",
+		"serviceType": "DataService",
+		"category": "wm.ServiceVariable",
+		"_id": "wm-wm.ServiceVariable1404709779879"
+	},
+	"topTrendingProducts": {
+		"name": "topTrendingProducts",
+		"type": null,
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {
+			"year": "",
+			"month": ""
+		},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 5,
+		"designMaxResults": 10,
+		"service": "salesdb",
+		"operation": "topTrendingProducts",
+		"operationType": "nativequery",
+		"startUpdate": false,
+		"autoUpdate": false,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"onBeforeUpdate": "Javascript",
+		"serviceType": "DataService",
+		"category": "wm.ServiceVariable",
+		"_id": "wm-wm.ServiceVariable1404709800110"
+	},
+	"revenueHeatMap": {
+		"name": "revenueHeatMap",
+		"type": null,
+		"isList": false,
+		"owner": "Page",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {
+			"year": "",
+			"month": ""
+		},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 1000,
+		"designMaxResults": 10,
+		"service": "salesdb",
+		"operation": "revenueHeatMap",
+		"operationType": "nativequery",
+		"startUpdate": false,
+		"autoUpdate": false,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"onBeforeUpdate": "Javascript",
+		"serviceType": "DataService",
+		"category": "wm.ServiceVariable",
+		"_id": "wm-wm.ServiceVariable1404709828940"
+	}
+}
